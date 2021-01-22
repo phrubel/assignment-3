@@ -42,11 +42,11 @@ console.log(totalRent);
 // megaFriend
 
 var friendsName = ["Parvez Hasan Rubel","Mehedi Hasan Joy","Samiul Islam Samim"];
-function megaFriend(names) {
-  var longestName = names[0];
-  for (i = 0; i < names.length; i++) {
-    if (names[i].length > longestName.length) {
-      longestName = names[i];
+function megaFriend(namesWord) {
+  var longestName = namesWord[0];
+  for (i = 0; i < namesWord.length; i++) {
+    if (namesWord[i].length > longestName.length) {
+      longestName = namesWord[i];
     }
   }
   return longestName;
